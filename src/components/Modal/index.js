@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-const Modal = ( { onClose, currentPhoto }) => {
+const Modal = ({ onClose, currentPhoto }) => {
    const { name, category, description, index } = currentPhoto;
 
    return (
